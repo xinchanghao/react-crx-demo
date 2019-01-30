@@ -1,0 +1,9 @@
+/node_modules/
+/src/build/*
+dist
+npm-debug.log
+node_modules
+.idea/
+.DS_Store
+.vscode/
+package-lock.json
