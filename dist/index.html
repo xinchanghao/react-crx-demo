@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC>
+<html>
+
+<head>
+    <title>千千VIP视频解析</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<style>
+    body {
+        background: #000;
+        height: 100%;
+    }
+    canvas {
+        height: 180%;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #c1 {
+        opacity: 0;
+    }
+
+    #c2 {
+        background: #000;
+    }
+</style>
+
+<body style="background-image: url('./images/background.png')">
+    <canvas id="c1"></canvas>
+    <canvas id="c2"></canvas>
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 center-block" style="float: none;">
+        <h3 class="text-muted" align="center" style="color:#fff;">千千VIP视频解析-by化风</h3>
+        <hr>
+        <table class="table table-bordered">
+            <tbody>
+                <div class="col-md-14 column">
+                    <div class="panel panel-default">
+                        <div id="kj" class="panel-body">
+                            <iframe src="about:blank" id="player" width="100%" height="400px" allowtransparency="true"
+                                frameborder="0" scrolling="no" style="background:#000;"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <tr>
+                    <div class="col-md-14 column">
+                        <form method="get" id="1233911832">
+                            <div class="input-group" style="width: 100%;">
+                                <span class="input-group-addon input-lg" style="width: 80px; ">选择接口</span>
+                                <select class="form-control input-lg" id="jk">
+                                    <option value="http://api.baiyug.cn/vip/index.php?url=" selected>超清</option>
+
+                                    <option value="http://www.vipjiexi.com/yun.php?url=" selected>线路1</option>
+
+                                    <option value="http://api.1008net.com/v.php?url=" selected>线路2</option>
+
+                                    <option value="http://api.nepian.com/ckparse/?url=" selected>线路3</option>
+
+                                    <option value="http://player.jidiaose.com/supapi/iframe.php?v=" selected>线路4</option>
+
+                                    <option value="http://api.pucms.com/index.php?url=" selected>线路5</option>
+
+                                    <option value="http://api.wlzhan.com/sudu/?url=" selected>线路6</option>
+
+                                    <option value="http://www.0335haibo.com/yun.php?url=" selected>线路7</option>
+
+                                    <option value="http://yun.mt2t.com/yun?url=" selected>线路8</option>
+
+                                    <option value="http://y.mt2t.com/lines?url=" selected>线路9</option>
+
+                                    <option value="http://www.0335haibo.com/yun.php?url=" selected>线路10</option>
+
+                                    <option value="http://www.sfsft.com/video.php?url=" selected>线路11</option>
+
+                                    <option value="http://www.82190555.com/video.php?url=" selected>线路12</option>
+
+                                    <option value="http://2.jx.72du.com/video.php?url=" selected>线路13</option>
+
+                                    <option value="http://www.dgua.xyz/webcloud/?url=" selected>线路14</option>
+
+                                    <option value="http://jiexi.071811.cc/jx.php?url=" selected>线路15</option>
+
+                                    <option value="http://jiexi.92fz.cn/player/vip.php?url=" selected>线路16</option>
+
+                                    <option value="http://jx.api.163ren.com/vod.php?url=" selected>线路17</option>
+
+                                    <option value="http://www.82190555.com/index/qqvod.php?url=" selected>线路18</option>
+
+                                </select>
+                            </div><br>
+                            <div class="input-group" style="width: 100%;">
+                                <span class="input-group-addon input-lg" style="width: 80px;">播放地址</span>
+                                <input class="form-control input-lg" type="search" placeholder="输入播放地址" id="url">
+
+                            </div><br>
+                            <div><button id="bf" type="button" class="btn btn-primary btn-lg btn-block">观看</button>
+                            </div>
+                        </form>
+                    </div>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered" style="background: rgba(0,0,0,.3);color:#fff;">
+            <thead>
+                <tr></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ol>
+                            <h5>
+                                <li>目前推荐顺序靠前的通道，解析过程稍等片刻</li><br>
+                                <li>如果遇到无法播放，切换播放通道，不同的网站可能跟解析服务器支持有关</li><br>
+                                <li>这些接口来源于网络泄露特别是会员解析通道，低调使用，我会定期更新</li><br>
+                                <li>新手使用，必读说明（如何获取vip视频播放地址） <a href="https://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gb18030&word=%CE%D2%CA%C7%C4%E3%B5%F9&fr=ala&ala=1&alatpl=adress&pos=0&hs=2&xthttps=111111" class="btn btn-default"
+                                        target="_blank">♚点击进入♚</a> </li><br>
+                            </h5>
+                        </ol>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="app"></div>
+        <script src="./build/canvas.js"></script>
+        <script src="./build/main.js"></script>
+        <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bootcss.com/layer/3.0.1/layer.min.js"></script>
+</body>
+
+</html>

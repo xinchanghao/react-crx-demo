@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "千千vip解析",
+  "short_name": "千千vip解析",
+  "version": "1.0.0",
+  "content_security_policy": "script-src 'self' https://cdn.bootcss.com; object-src 'self'",
+  "description": "This is a vip video parsing plugin",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "64": "images/icon-64.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "https://cdn.bootcss.com/"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "64": "images/icon-64.png",
+      "128": "images/icon-128.png"
+    },
+    "default_title": "化风",
+    "default_popup": "tip.html"
+  },
+  "options_page": "index.html"
+}
