@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "千千vip解析",
-  "short_name": "千千vip解析",
+  "name": "千千解析",
+  "short_name": "千千解析",
   "version": "1.0.0",
   "content_security_policy": "script-src 'self' https://cdn.bootcss.com; object-src 'self'",
   "description": "This is a vip video parsing plugin",
