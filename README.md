@@ -15,8 +15,10 @@
 
 ### 二、开发者打包
 
-    1. `npm install`
-    2. `npm run build`
+    1. npm install
+    
+    2. npm run build
+    
     3. 压缩生成的dist目录
 
  
