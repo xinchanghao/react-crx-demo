@@ -1,5 +1,5 @@
 /node_modules/
-dist/build/*
+# dist/build/*
 npm-debug.log
 node_modules
 .idea/
