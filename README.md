@@ -2,12 +2,8 @@
 
 千千VIP视频解析
 
-### 全网解析vip视频
+### 全网解析vip视频 [网页版预览](https://chhxin.github.io/react-crx-demo/dist/)
      主要支持腾讯、优酷、爱奇艺、哔哩哔哩、PPTV、凤凰视频、搜狐视频、芒果TV、乐视、喜马拉雅、音悦台等...
-
-     [网页版预览](https://chhxin.github.io/react-crx-demo/dist/)
-
-
 
 ### 一、插件安装
 
