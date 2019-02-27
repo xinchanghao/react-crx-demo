@@ -7,6 +7,8 @@
 
      [网页版预览](https://chhxin.github.io/react-crx-demo/dist/)
 
+
+
 ### 一、插件安装
 
     由于Chrome谷歌浏览器已停用第三方来源的扩展程序，所以本插件需要在开发者模式下使用：
@@ -26,5 +28,9 @@
     2. npm run build
     
     3. 压缩生成的dist目录
+
+### 三、运行截图
+
+ ![主界面](https://github.com/ChhXin/react-crx-demo/blob/master/dist/images/111.png)  
 
  
