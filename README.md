@@ -31,6 +31,6 @@
 
 ### 三、运行截图
 
- ![主界面](https://github.com/ChhXin/react-crx-demo/blob/master/dist/images/111.png)  
+ ![主界面](https://github.com/ChhXin/react-crx-demo/blob/master/dist/images/111.jpg)  
 
  
