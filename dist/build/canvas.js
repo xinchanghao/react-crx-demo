@@ -105,7 +105,7 @@
 // init();
 
 window.onload = function () {
-  layer.confirm('小老弟，你懂为什么要低调使用吗', {
+  layer.confirm('小老弟，js被浏览器拦截或者flash未开启记得需要打开哦', {
     btn: ['不懂', '懂了'] //可以无限个按钮
     , btn1: function (index, layero) {
     }
